@@ -36,6 +36,8 @@ class LaboratorioAvengers // Clase principal del programa
             string input = Console.ReadLine(); // Leer la entrada del usuario
             int opcion;
 
+            Console.Clear(); // Limpiar la consola
+            
             // Validar si la entrada es un número
             if (!int.TryParse(input, out opcion))
             {
